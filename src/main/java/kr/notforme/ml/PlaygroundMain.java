@@ -30,10 +30,13 @@ public class PlaygroundMain {
 
 
         INDArray x1 = Nd4j.create(new float[] { 1, 2, 1, 2,1,2 }, new int[] { 3, 2 });
-        INDArray x2 = Nd4j.create(new float[] { 2, 2, 2, }, new int[] { 3, 1 });
-//        System.out.println(x1.mulColumnVector(x2));
-//        printDim("x1*x2",x1.mulColumnVector(x2));
-//        System.out.println(x1.mulColumnVector(x2).sum(0));
+        INDArray x2 = Nd4j.create(new float[] { 2, 1, }, new int[] { 1, 2 });
+        printDim("x1", x1);
+        System.out.println(x1);
+        printDim("x2", x2);
+        System.out.println(x2);
+        printDim("x1 - x2", x1.subRowVector(x2));
+        System.out.println(x1.subRowVector(x2));
 //        printDim("sum(x1 * x2)",x1.mulColumnVector(x2).sum(0));
 //        System.out.println(x1.mulColumnVector(x2).sum(1));
 //        printDim("sum(x1 * x2) 2", x1.mulColumnVector(x2).sum(1));
