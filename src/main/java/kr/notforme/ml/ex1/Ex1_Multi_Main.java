@@ -1,4 +1,4 @@
-package kr.notforme.ml.ex1.single;
+package kr.notforme.ml.ex1;
 
 import static kr.notforme.ml.ex1.GradientDescent.runGradientDescentMulti;
 
@@ -16,7 +16,6 @@ import org.nd4j.linalg.indexing.NDArrayIndex;
 import org.nd4j.linalg.inverse.InvertMatrix;
 import org.nd4j.linalg.io.ClassPathResource;
 
-import kr.notforme.ml.ex1.FeatureNormalizer;
 import kr.notforme.ml.ex1.FeatureNormalizer.Norm;
 
 public class Ex1_Multi_Main {

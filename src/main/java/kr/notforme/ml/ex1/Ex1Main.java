@@ -1,4 +1,4 @@
-package kr.notforme.ml.ex1.single;
+package kr.notforme.ml.ex1;
 
 import static kr.notforme.ml.ex1.CostCalculator.computeCost;
 import static kr.notforme.ml.ex1.GradientDescent.runGradientDescent;
