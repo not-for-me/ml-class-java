@@ -34,9 +34,9 @@ public class PlaygroundMain {
         printDim("x1", x1);
         System.out.println(x1);
         printDim("x2", x2);
-        System.out.println(x2);
-        printDim("x1 - x2", x1.subRowVector(x2));
-        System.out.println(x1.subRowVector(x2));
+        System.out.println(x2.neg());
+//        printDim("x1 - x2", x1.subRowVector(x2));
+//        System.out.println(x1.subRowVector(x2));
 //        printDim("sum(x1 * x2)",x1.mulColumnVector(x2).sum(0));
 //        System.out.println(x1.mulColumnVector(x2).sum(1));
 //        printDim("sum(x1 * x2) 2", x1.mulColumnVector(x2).sum(1));
